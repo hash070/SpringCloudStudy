@@ -26,7 +26,7 @@ public class OrderService {
         Order order = orderMapper.findById(orderId);
         // TODO: 2021/8/15  2.查询用户，使用服务拉取
         User user = restTemplate.getForObject("http://userservice/user/" + order.getUserId(), User.class);
-        // 3. 将用户信息封装进订单
+        // 3.将用户信息封装进订单
         order.setUser(user);
         // 4.返回
         return order;
