@@ -17,3 +17,21 @@
 08-rabbitmq-demo rabbitmq消息队列
 
 09-elasticsearch-hotel-demo elasticsearch搜索引擎
+
+
+
+# demo-01
+
+## 运行效果
+
+### order-service
+
+http://127.0.0.1:8080/order/101
+
+![image-20221021160445246](https://img.hash070.top/i/6352529e4ea1e.webp)
+
+### user-service
+
+http://127.0.0.1:8081/user/2
+
+![image-20221021160452940](https://img.hash070.top/i/635252a5d340c.webp)
